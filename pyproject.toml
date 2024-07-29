@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ProjectR"
+authors = [{name = "Mohamed Elshahier"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "matplotlib",
+    "plotly",
+    "nbformat",
+    "ipywidgets",
+    "IPython",
+    "streamlit",
+]
